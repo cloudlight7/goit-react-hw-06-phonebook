@@ -20,6 +20,5 @@ export const store = configureStore({
       },
     }),
 });
-// export const store = configureStore({ reducer: persistedReducer })
 
 export const persistor = persistStore(store);

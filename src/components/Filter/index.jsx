@@ -7,7 +7,6 @@ const Filter = () => {
     dispatch(addFilterAction(value));
   };
 
-  //console.log(item);
   return (
     <>
       <p>Find contacts by name</p>
